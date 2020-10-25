@@ -1,0 +1,109 @@
+@-webkit-keyframes main {
+	from {margin-top: 0px;}
+	to {margin-top: -10px;}
+}
+
+@-webkit-keyframes tree {
+	from {margin-top: 50px;}
+	to {margin-top: -10px;}
+}
+
+@-webkit-keyframes deer {
+	from {margin-top: 55px; margin-left: 0px;}
+	to {margin-top: 0px; margin-left: 20px;}
+}
+
+@-webkit-keyframes title {
+	from {margin-top: 0px; opacity: 0%;}
+	to {margin-top: 60px; opacity: 100%;}
+}
+
+@-webkit-keyframes title2 {
+	from {margin-top: 30px; opacity: 0%;}
+	to {margin-top: 60px; opacity: 100%;}
+}
+
+@-webkit-keyframes title3 {
+	from {margin-top: 90px; opacity: 0%;}
+	to {margin-top: 50px; opacity: 100%;}
+}
+
+/*
+@-webkit-keyframes deer {
+	from {transform: translateY(50px); scale(1, 1) ;}
+	to {transform: translateY(0px); scale(1, 1) ;}
+}*/
+
+
+
+.main {width: 100%; position: absolute;
+	margin-top: 0px;
+	animation-name: main;
+	transition-property: all;
+	animation-duration: 3s;
+	animation-delay: 0.6s;
+	animation-fill-mode: forwards;}
+.main_.png {max-width: 100%; height: auto;}
+
+.tree {width: 100%; position: absolute;
+	margin-top: 50px;
+	animation-name: tree;
+	transition-property: all;
+	animation-duration: 3s;
+	animation-delay: 0.6s;
+	animation-fill-mode: forwards;
+
+	}
+
+.deer {width: 100%; position: absolute;
+	margin-top: 55px;
+	animation-name: deer;
+	animation-duration: 8s;
+	animation-delay: 0.6s;
+	animation-fill-mode: forwards;
+
+	}
+
+
+.title {position: absolute; margin-top: 60px;
+	opacity: 0%;
+	animation-name: title;
+	transition-property: all;
+	animation-duration: 3s;
+	animation-delay: 1.2s;
+	animation-fill-mode: forwards;}
+
+.wing {position: absolute; margin-top: 60px; width: 80%; left: 5%;
+	opacity: 0%;
+	animation-name: title2;
+	transition-property: all;
+	animation-duration: 3s;
+	animation-delay: 2s;
+	animation-fill-mode: forwards;}
+
+.horn {position: absolute; margin-top: 60px; width: 80%; left: 15%;
+	opacity: 0%;
+	animation-name: title2;
+	transition-property: all;
+	animation-duration: 3s;
+	animation-delay: 2s;
+	animation-fill-mode: forwards;}
+
+.open {position: absolute; margin-top: 60px; width: 80%; left: 10%;
+	opacity: 0%;
+	animation-name: title3;
+	transition-property: all;
+	animation-duration: 3s;
+	animation-delay: 1.2s;
+	animation-fill-mode: forwards;}
+
+
+
+.snow {position: absolute;
+	width: 10px; height: 10px; background-color: #ffffff;
+	border-radius: 50%;
+  	filter: blur(2px);
+ 	-webkit-filter: blur(2px); }
+
+
+ 	
